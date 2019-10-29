@@ -60,33 +60,69 @@ class App extends Component {
     if (1 in this.configuration.allPages) {
       this.setCurrentPageConfiguration(1);
     }
+
+    this.onPageClick = this.onPageClick.bind(this);
   }
 
   setCurrentPageConfiguration(index) {
-      this.currPage["index"] = 1;
-      this.currPage["img"] = this.configuration.allPages[index].img;
-      this.currPage["soundFX"] = this.configuration.allPages[index].soundFX;
-      this.currPage["backgroundFX"] = this.configuration.allPages[index].backgroundFX;
+      this.state = {
+        index: 1,
+        img: this.configuration.allPages[index].img,
+        soundFX: this.configuration.allPages[index].soundFX,
+        backgroundFX: this.configuration.allPages[index].backgroundFX
+      } 
   }
 
   onPageClick(e) {
     var posX = e.clientX;
-    var posY = e.clientY;
 
     var mangaContainerDiv = document.getElementById("MangaContainer");
 
     var mangaPageX = posX - mangaContainerDiv.offsetLeft;
-    var mangaPageY = posY - mangaContainerDiv.offsetTop;
-
     var halfwayPointX = mangaContainerDiv.offsetWidth / 2.0;
 
     if (mangaPageX < halfwayPointX) {
+      this.handlePageBackwardEvent();
       console.log("page backwards");
     }
     else {
+      this.handlePageForwardEvent();
       console.log("page forward");
     }
     // console.log("item clicked on " + mangaPageX + ", " + mangaPageY);
+  }
+
+  updateState(index, img, soundFX, backgroundFX) {
+    this.setState({
+      index: index,
+      img: img,
+      soundFX: soundFX,
+      backgroundFX: backgroundFX
+    });
+  }
+
+  handlePageForwardEvent() {
+    console.log("Handling Page Forward Event");
+
+    var nextPageIndex = this.state["index"] + 1;
+    if (nextPageIndex in this.configuration.allPages) {
+      this.updateState(nextPageIndex, 
+        this.configuration.allPages[nextPageIndex].img, 
+        this.configuration.allPages[nextPageIndex].soundFX,
+        this.configuration.allPages[nextPageIndex].backgroundFX);
+    }
+  }
+
+  handlePageBackwardEvent() {
+    console.log("Handling Page Backward Event");
+
+    var nextPageIndex = this.state["index"] - 1;
+    if (nextPageIndex in this.configuration.allPages) {
+      this.updateState(nextPageIndex, 
+        this.configuration.allPages[nextPageIndex].img, 
+        this.configuration.allPages[nextPageIndex].soundFX,
+        this.configuration.allPages[nextPageIndex].backgroundFX);
+    }
   }
 
   render() {
@@ -95,7 +131,7 @@ class App extends Component {
         <header className="App-header">
           <h2> { this.configuration.title } </h2>
           <div onClick={this.onPageClick} id="MangaContainer">
-            <MangaPage id="MangaPage" imgSrc={this.currPage} />
+            <MangaPage id="MangaPage" pageConfig={this.state} />
           </div>
         </header>
       </div>

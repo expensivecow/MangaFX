@@ -7,9 +7,10 @@ class MangaPage extends Component {
   }
 
   render() {
+    console.log("child component rendering");
     return (
-      <div className="MangaPage">
-        <img src={this.props.imgSrc.img} draggable="false" unselectable="on"></img>
+      <div key={this.props.pageConfig} className="MangaPage">
+        <img src={this.props.pageConfig.img} draggable="false" unselectable="on"></img>
       </div>
     )
   }
