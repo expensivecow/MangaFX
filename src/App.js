@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import MangaPage from './MangaPage';
+import MangaPanel from './MangaPanel';
 
 class App extends Component {
   configuration = {
@@ -52,8 +52,6 @@ class App extends Component {
     }
   }
 
-  currPage = {}
-
   constructor(props) {
     super(props);
 
@@ -62,7 +60,10 @@ class App extends Component {
     }
 
     this.onPageClick = this.onPageClick.bind(this);
+    this.onKeyUp = this.onKeyUp.bind(this);
+    this.myRef = React.createRef();
   }
+
 
   setCurrentPageConfiguration(index) {
       this.state = {
@@ -78,10 +79,10 @@ class App extends Component {
 
     var mangaContainerDiv = document.getElementById("MangaContainer");
 
-    var mangaPageX = posX - mangaContainerDiv.offsetLeft;
+    var MangaPanelX = posX - mangaContainerDiv.offsetLeft;
     var halfwayPointX = mangaContainerDiv.offsetWidth / 2.0;
 
-    if (mangaPageX < halfwayPointX) {
+    if (MangaPanelX < halfwayPointX) {
       this.handlePageBackwardEvent();
       console.log("page backwards");
     }
@@ -89,7 +90,7 @@ class App extends Component {
       this.handlePageForwardEvent();
       console.log("page forward");
     }
-    // console.log("item clicked on " + mangaPageX + ", " + mangaPageY);
+    // console.log("item clicked on " + MangaPanelX + ", " + MangaPanelY);
   }
 
   updateState(index, img, soundFX, backgroundFX) {
@@ -105,6 +106,7 @@ class App extends Component {
     console.log("Handling Page Forward Event");
 
     var nextPageIndex = this.state["index"] + 1;
+
     if (nextPageIndex in this.configuration.allPages) {
       this.updateState(nextPageIndex, 
         this.configuration.allPages[nextPageIndex].img, 
@@ -124,14 +126,22 @@ class App extends Component {
         this.configuration.allPages[nextPageIndex].backgroundFX);
     }
   }
+  
+  onKeyUp(e) {
+    if (e.key === 'ArrowRight') {
+      this.handlePageForwardEvent();
+    } else if (e.key === 'ArrowLeft') {
+      this.handlePageBackwardEvent();
+    }
+  }
 
   render() {
     return (
-      <div className="App">
+      <div className="App" onKeyUp={this.onKeyUp} tabIndex="0" >
         <header className="App-header">
           <h2> { this.configuration.title } </h2>
           <div onClick={this.onPageClick} id="MangaContainer">
-            <MangaPage id="MangaPage" pageConfig={this.state} />
+            <MangaPanel id="MangaPanel" pageConfig={this.state} />
           </div>
         </header>
       </div>
