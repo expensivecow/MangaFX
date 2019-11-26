@@ -436,7 +436,6 @@ class App extends Component {
     return (
       <div className="App" onKeyUp={this.onKeyUp} tabIndex="0" >
         <header className="App-header">
-          <h1>{this.state.index}</h1>
           <div onClick={this.onPageClick} id="MangaContainer">
             <PanelController delayConfig={this.configuration.delayConfig} state={this.state} pagesConfig={this.configuration.pagesConfig}/>
           </div>
