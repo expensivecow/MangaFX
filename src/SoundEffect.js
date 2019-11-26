@@ -24,6 +24,7 @@ class SoundEffect extends Component {
     return <Sound 
         url={this.props.url}
         playStatus={this.state.playState}
+        volume={this.props.volume}
         loop={false}
       />
   }

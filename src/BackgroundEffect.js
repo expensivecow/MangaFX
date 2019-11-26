@@ -11,6 +11,7 @@ class BackgroundEffect extends Component {
       url={this.props.config.url}
       playStatus={Sound.status.PLAYING}
       loop={true}
+      volume={this.props.config.volume}
     />
   }
 }
