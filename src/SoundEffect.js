@@ -16,7 +16,6 @@ class SoundEffect extends Component {
   }
 
   show() {
-    console.log('HELLO');
     this.setState({playState : Sound.status.PLAYING});
   }
 
