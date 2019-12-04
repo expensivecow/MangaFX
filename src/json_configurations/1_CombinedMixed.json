@@ -129,13 +129,18 @@
     },
   	{
       "id": 1,
-      "soundEffects": []
+      "soundEffects": [{
+        "id": 0,
+        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/Mixed/MixedRooster-1.wav",
+        "volume": 100,
+        "delay": 0
+      }]
     },
     {
       "id": 2,
       "soundEffects": [{
         "id": 0,
-        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/SchoolBell.wav",
+        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/Mixed/MixedMultipleGunShot-2.mp3",
         "volume": 100,
         "delay": 0
       }]
@@ -166,7 +171,7 @@
       "id": 6,
       "soundEffects": [{
         "id": 0,
-        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/ConcreteFootSteps.wav",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/Mixed/MixedFlame-6.mp3",
         "volume": 100,
         "delay": 5
       }]
@@ -175,7 +180,7 @@
       "id": 7,
       "soundEffects": [{
         "id": 0,
-        "url": "",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/Mixed/MixedFlame-7.mp3",
         "volume": 100,
         "delay": 5
       }]
@@ -211,7 +216,7 @@
       "id": 11,
       "soundEffects": [{
         "id": 0,
-        "url": "",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/Mixed/MixedSwordSheath-11.mp3",
         "volume": 100,
         "delay": 5
       }]
@@ -283,7 +288,7 @@
       "id": 19,
       "soundEffects": [{
         "id": 0,
-        "url": "",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/Mixed/MixedWhip-19.wav",
         "volume": 25,
         "delay": 5
       }]
@@ -292,7 +297,7 @@
       "id": 20,
       "soundEffects": [{
         "id": 0,
-        "url": "",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/Mixed/MixedWindBlow-20.wav",
         "volume": 100,
         "delay": 5
       }]
@@ -310,7 +315,7 @@
       "id": 22,
       "soundEffects": [{
         "id": 0,
-        "url": "",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/Mixed/MixedTumblingRocks-22.mp3",
         "volume": 100,
         "delay": 5
       }]
@@ -328,7 +333,7 @@
       "id": 24,
       "soundEffects": [{
         "id": 0,
-        "url": "",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/Mixed/MixedGunShot-24.mp3",
         "volume": 100,
         "delay": 5
       }]
@@ -346,7 +351,7 @@
       "id": 26,
       "soundEffects": [{
         "id": 0,
-        "url": "",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/Mixed/Mixedwhoosh-26.wav",
         "volume": 100,
         "delay": 5
       }]
@@ -445,116 +450,128 @@
     {
       "id": 11,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
         "volume": 50
       }
     },
     {
       "id": 12,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
         "volume": 50
       }
     },
     {
       "id": 13,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
         "volume": 50
       }
     },
     {
       "id": 14,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
         "volume": 50
       }
     },
     {
       "id": 15,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
         "volume": 50
       }
     },
     {
       "id": 16,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
         "volume": 50
       }
     },
     {
       "id": 17,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
         "volume": 50
       }
     },
     {
       "id": 18,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
         "volume": 50
       }
     },
     {
       "id": 19,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
         "volume": 50
       }
     },
     {
       "id": 20,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
         "volume": 10
       }
     },
     {
       "id": 21,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
         "volume": 10
       }
     },
     {
       "id": 22,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
         "volume": 10
       }
     },
     {
       "id": 23,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
         "volume": 10
       }
     },
     {
       "id": 24,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
         "volume": 10
       }
     },
     {
       "id": 25,
-      "music": {}
+      "music": {
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
+        "volume": 10
+      }
     },
     {
       "id": 26,
-      "music": {}
+      "music": {
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
+        "volume": 10
+      }
     },
     {
       "id": 27,
-      "music": {}
+      "music": {
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
+        "volume": 10
+      }
     },
     {
       "id": 28,
-      "music": {}
+      "music": {
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/Boku_no_Hero_Academia_Main_Theme.mp3",
+        "volume": 10
+      }
     }
   ]
 }
