@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import pageConfig from './json_configurations/boku_no_hero_chapter3.json'
+import pageConfig from './json_configurations/1_CombinedMixed.json'
 import PanelController from './PanelController';
 import BackgroundEffect from './BackgroundEffect';
 import SoundEffect from './SoundEffect';
