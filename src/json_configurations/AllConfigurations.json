@@ -166,7 +166,7 @@
 					"soundEffects": [{
 						"id": 0,
 						"url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/Mixed/MixedFlame-6.mp3",
-						"volume": 10,
+						"volume": 5,
 						"delay": 0
 					}]
 				},
@@ -175,7 +175,7 @@
 					"soundEffects": [{
 						"id": 0,
 						"url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/Mixed/MixedFlame-6.mp3",
-						"volume": 10,
+						"volume": 5,
 						"delay": 0
 					}]
 				},
@@ -928,13 +928,13 @@
 						{
 							"id": 1,
 							"url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/MidoriyaDetroitSmash.mp3",
-							"volume": 10,
+							"volume": 20,
 							"delay": 0
 						},
 						{
 							"id": 2,
 							"url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/BigImpact.wav",
-							"volume": 10,
+							"volume": 15,
 							"delay": 2000
 						}
 					]
@@ -2238,28 +2238,28 @@
 					"id": 11,
 					"music": {
 						"url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/ARealHero1.mp3",
-						"volume": 4
+						"volume": 5
 					}
 				},
 				{
 					"id": 12,
 					"music": {
 						"url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/ARealHero1.mp3",
-						"volume": 3
+						"volume": 5
 					}
 				},
 				{
 					"id": 13,
 					"music": {
 						"url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/ARealHero1.mp3",
-						"volume": 2
+						"volume": 5
 					}
 				},
 				{
 					"id": 14,
 					"music": {
 						"url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/ARealHero1.mp3",
-						"volume": 1
+						"volume": 5
 					}
 				},
 				{
