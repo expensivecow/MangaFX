@@ -357,28 +357,29 @@
       "soundEffects": [{
         "id": 0,
         "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/AirWave.wav",
-        "volume": 10,
+        "volume": 6,
         "delay": 0
       }]
     },
     {
       "id": 21,
-      "soundEffects": [{
-        "id": 0,
+      "soundEffects": [
+      {
+          "id": 0,
+          "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/AirWave.wav",
+          "volume": 5,
+          "delay": 0
+      },
+      {
+        "id": 1,
         "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/ClothesRipping.wav",
         "volume": 10,
         "delay": 0
       },{
-        "id": 1,
+        "id": 2,
         "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/ClothesRipping.wav",
         "volume": 5,
         "delay": 500
-      },
-      {
-          "id": 2,
-          "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/AirWave.wav",
-          "volume": 5,
-          "delay": 0
       }]
     },
     {
@@ -387,29 +388,30 @@
       {
           "id": 0,
           "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/AirWave.wav",
-          "volume": 5,
+          "volume": 4,
           "delay": 0
       }]
     },
     {
       "id": 23,
-      "soundEffects": [{
-        "id": 0,
+      "soundEffects": [
+      {
+          "id": 0,
+          "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/AirWave.wav",
+          "volume": 3,
+          "delay": 0
+      },
+      {
+        "id": 1,
         "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/MidoriyaDetroitSmash.mp3",
         "volume": 10,
         "delay": 0
       },
       {
-        "id": 1,
+        "id": 2,
         "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/BigImpact.wav",
         "volume": 10,
         "delay": 2000
-      },
-      {
-          "id": 2,
-          "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/AirWave.wav",
-          "volume": 5,
-          "delay": 0
       }]
     },
     {
@@ -519,7 +521,7 @@
       "id": 10,
       "music": {
         "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MassiveVillainAppearance.mp3",
-        "volume": 3
+        "volume": 2
       }
     },
     {

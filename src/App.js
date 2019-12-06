@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import pageConfig from './json_configurations/1_CombinedMixed.json'
+import pageConfig from './json_configurations/3_OnlySoundFX.json'
 import PanelController from './PanelController';
 import BackgroundEffect from './BackgroundEffect';
 import SoundEffect from './SoundEffect';
