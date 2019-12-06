@@ -185,12 +185,7 @@
     },
     {
       "id": 2,
-      "soundEffects": [{
-        "id": 0,
-        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/SchoolBell.wav",
-        "volume": 100,
-        "delay": 0
-      }]
+      "soundEffects": []
     },
     {
       "id": 3,
@@ -198,345 +193,155 @@
     },
     {
       "id": 4,
-      "soundEffects": [{
-        "id": 0,
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/ScrewOff.mp3",
-        "volume": 10,
-        "delay": 1000
-      }]
+      "soundEffects": []
     },
     {
       "id": 5,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 6,
-      "soundEffects": [{
-        "id": 0,
-        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/ConcreteFootSteps.wav",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 7,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 8,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 9,
-      "soundEffects": [{
-        "id": 0,
-        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/WobblyLegs.wav",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 10,
-      "soundEffects": [{
-        "id": 0,
-        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/SlippingSound.wav",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 11,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 12,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 13,
-      "soundEffects": [{
-        "id": 0,
-        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/InAirLegFlail.flac",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 14,
-      "soundEffects": [{
-        "id": 0,
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/JumpLand.m4a",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 15,
-      "soundEffects": [{
-        "id": 0,
-        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/SingleClap.wav",
-        "volume": 100,
-        "delay": 1000
-      }]
+      "soundEffects": []
     },
     {
       "id": 16,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 50,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 17,
-      "soundEffects": [{
-        "id": 0,
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/FemaleByeBye.mp3",
-        "volume": 25,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 18,
-      "soundEffects": [{
-        "id": 0,
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/WowMeme.mp3",
-        "volume": 10,
-        "delay": 3000
-      }]
+      "soundEffects": []
     },
     {
       "id": 19,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 25,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 20,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 21,
-      "soundEffects": [{
-        "id": 0,
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/Crickets.mp3",
-        "volume": 10,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 22,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 23,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 24,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 25,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 26,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 27,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 28,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 29,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 30,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 31,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 32,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 33,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 34,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 35,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 36,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 37,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 38,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 39,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 40,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     },
     {
       "id": 41,
-      "soundEffects": [{
-        "id": 0,
-        "url": "",
-        "volume": 100,
-        "delay": 5
-      }]
+      "soundEffects": []
     }
   ],
   "backgroundMusicConfig": [
@@ -550,164 +355,95 @@
     },
     {
       "id": 2,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 3,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 4,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 5,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 6,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 7,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 8,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 9,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 10,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 11,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 12,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 13,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 14,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 15,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 16,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 17,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 18,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 19,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 50
-      }
+      "music": {}
     },
     {
       "id": 20,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 10
-      }
+      "music": {}
     },
     {
       "id": 21,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 10
-      }
+      "music": {}
     },
     {
       "id": 22,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 10
-      }
+      "music": {}
     },
     {
       "id": 23,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 10
-      }
+      "music": {}
     },
     {
       "id": 24,
-      "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/MorningBirds.mp3",
-        "volume": 10
-      }
+      "music": {}
     },
     {
       "id": 25,

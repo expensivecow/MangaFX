@@ -415,28 +415,28 @@
       "id": 11,
       "music": {
         "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/ARealHero1.mp3",
-        "volume": 5
+        "volume": 4
       }
     },
     {
       "id": 12,
       "music": {
         "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/ARealHero1.mp3",
-        "volume": 5
+        "volume": 3
       }
     },
     {
       "id": 13,
       "music": {
         "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/ARealHero1.mp3",
-        "volume": 5
+        "volume": 2
       }
     },
     {
       "id": 14,
       "music": {
         "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/ARealHero1.mp3",
-        "volume": 5
+        "volume": 1
       }
     },
     {
@@ -547,28 +547,28 @@
     {
       "id": 30,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/WorthyRival1.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/WorthyRival3.mp3",
         "volume": 3
       }
     },
     {
       "id": 31,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/WorthyRival2.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/WorthyRival3.mp3",
         "volume": 3
       }
     },
     {
       "id": 32,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/WorthyRival2.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/WorthyRival3.mp3",
         "volume": 3
       }
     },
     {
       "id": 33,
       "music": {
-        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/WorthyRival2.mp3",
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/WorthyRival3.mp3",
         "volume": 3
       }
     },

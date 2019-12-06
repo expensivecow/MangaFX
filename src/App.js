@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 import './App.css';
-import pageConfig from './json_configurations/3_OnlySoundFX.json'
 import PanelController from './PanelController';
 import BackgroundEffect from './BackgroundEffect';
 import SoundEffect from './SoundEffect';
+import AllConfigurations from './json_configurations/AllConfigurations.json'
+import TutorialSlides from './json_configurations/Tutorial.json'
 
 class App extends Component {
   constructor(props) {
@@ -12,9 +13,36 @@ class App extends Component {
     this.state = {
       index: 0,
       canAnimate: true
-    } 
+    }
+
+    var allPages = AllConfigurations['pages'];
+
+    var shuffledPageConfig = this.shuffle(allPages);
+
+    var config = {};
+    config['delayConfig'] = 500;
+    config['pagesConfig'] = TutorialSlides['pagesConfig'];
+    config['soundEffectConfig'] = TutorialSlides['soundEffectConfig'];
+    config['backgroundMusicConfig'] = TutorialSlides['backgroundMusicConfig'];
+
+    for (var i = 0; i < allPages.length; i++) {
+      for (var y = 0; y < allPages[i]['pagesConfig'].length; y++) {
+        console.log('OY')
+        config['pagesConfig'].push(allPages[i]['pagesConfig'][y]);
+      }
+
+      for (var y = 0; y < allPages[i]['soundEffectConfig'].length; y++) {
+        console.log('OY')
+        config['soundEffectConfig'].push(allPages[i]['soundEffectConfig'][y]);
+      }
+
+      for (var y = 0; y < allPages[i]['backgroundMusicConfig'].length; y++) {
+        console.log('OY')
+        config['backgroundMusicConfig'].push(allPages[i]['backgroundMusicConfig'][y]);
+      }
+    }
     
-    this.configuration = pageConfig;
+    this.configuration = config;
     this.onPageClick = this.onPageClick.bind(this);
     this.onKeyUp = this.onKeyUp.bind(this);
     this.generateBackgroundEffectComponent = this.generateBackgroundEffectComponent.bind(this);
@@ -22,6 +50,25 @@ class App extends Component {
     this.createSoundEffectComponent = this.createSoundEffectComponent.bind(this);
     this.updateCanActivateEvent = this.updateCanActivateEvent.bind(this);
     this.myRef = React.createRef();
+  }
+
+  shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
+
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    return array;
   }
 
   onPageClick(e) {
@@ -59,7 +106,7 @@ class App extends Component {
 
     var nextPageIndex = this.state["index"] + 1;
 
-    if (nextPageIndex <= this.configuration.maxIndex && this.state['canAnimate']) {
+    if (nextPageIndex < this.configuration['pagesConfig'].length && this.state['canAnimate']) {
       this.updateState(nextPageIndex);
 
       this.updateCanActivateEvent(false);
@@ -74,7 +121,7 @@ class App extends Component {
     console.log("Handling Page Backward Event");
 
     var nextPageIndex = this.state["index"] - 1;
-    if (nextPageIndex >= this.configuration.minIndex && this.state['canAnimate']) {
+    if (nextPageIndex >= 0 && this.state['canAnimate']) {
       this.updateState(nextPageIndex);
 
       this.updateCanActivateEvent(false);

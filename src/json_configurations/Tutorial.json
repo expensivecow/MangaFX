@@ -1,0 +1,84 @@
+{
+  "delayConfig": 500,
+  "pagesConfig": [
+  	{
+      "id": 0,
+      "img": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/ExperimentInfo/Tutorial1.JPG"
+    },
+  	{
+      "id": 1,
+      "img": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/ExperimentInfo/Tutorial2.JPG"
+    },
+  	{
+      "id": 2,
+      "img": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/ExperimentInfo/Tutorial3.JPG"
+    },
+  	{
+      "id": 3,
+      "img": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/ExperimentInfo/Tutorial4.JPG"
+    },
+    {
+      "id": 4,
+      "img": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/ExperimentInfo/Tutorial5.JPG"
+    },
+    {
+      "id": 5,
+      "img": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/ExperimentInfo/Tutorial6.JPG"
+    }
+  ],
+  "soundEffectConfig": [
+  	{
+      "id": 0,
+      "soundEffects": []
+    },
+  	{
+      "id": 1,
+      "soundEffects": []
+    },
+    {
+      "id": 2,
+      "soundEffects": []
+    },
+    {
+      "id": 3,
+      "soundEffects": []
+    },
+    {
+      "id": 4,
+      "soundEffects": []
+    },
+    {
+      "id": 5,
+      "soundEffects": []
+    }
+  ],
+  "backgroundMusicConfig": [
+  	{
+      "id": 0,
+      "music": {}
+    },
+  	{
+      "id": 1,
+      "music": {}
+    },
+    {
+      "id": 2,
+      "music": {}
+    },
+    {
+      "id": 3,
+      "music": {}
+    },
+    {
+      "id": 4,
+      "music": {
+        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/RockCrumbling.wav",
+        "volume": 25
+      }
+    },
+    {
+      "id": 5,
+      "music": {}
+    }
+  ]
+}

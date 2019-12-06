@@ -208,7 +208,7 @@
       "id": 7,
       "soundEffects": [
         {
-        "id": 0,
+        "id": 2,
         "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/RockCrumbling.wav",
         "volume": 5,
         "delay": 0
@@ -535,28 +535,28 @@
       "id": 12,
       "music": {
         "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/YouSayRun.mp3",
-        "volume": 3
+        "volume": 1
       }
     },
     {
       "id": 13,
       "music": {
         "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/YouSayRun.mp3",
-        "volume": 3
+        "volume": 1
       }
     },
     {
       "id": 14,
       "music": {
         "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/YouSayRun.mp3",
-        "volume": 3
+        "volume": 2
       }
     },
     {
       "id": 15,
       "music": {
         "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/YouSayRun.mp3",
-        "volume": 3
+        "volume": 2
       }
     },
     {
@@ -638,7 +638,10 @@
     },
     {
       "id": 27,
-      "music": {}
+      "music": {
+        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/BackgroundMusic/YouSayRun.mp3",
+        "volume": 3
+      }
     }
   ]
 }
