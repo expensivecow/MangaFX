@@ -294,7 +294,7 @@
 				        "id": 0,
 				        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/WowMeme.mp3",
 				        "volume": 10,
-				        "delay": 3000
+				        "delay": 500
 			      	}]
 				},
 				{
