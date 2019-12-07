@@ -155,7 +155,12 @@
 				},
 				{
 					"id": 4,
-					"soundEffects": []
+					"soundEffects": [{
+				        "id": 0,
+				        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/ScrewOff.mp3",
+				        "volume": 10,
+				        "delay": 1000
+			      	}]
 				},
 				{
 					"id": 5,
@@ -185,11 +190,21 @@
 				},
 				{
 					"id": 9,
-					"soundEffects": []
+					"soundEffects": [{
+				        "id": 0,
+				        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/WobblyLegs.wav",
+				        "volume": 10,
+				        "delay": 0
+			      	}]
 				},
 				{
 					"id": 10,
-					"soundEffects": []
+					"soundEffects": [{
+				        "id": 0,
+				        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/SlippingSound.wav",
+				        "volume": 10,
+				        "delay": 0
+      				}]
 				},
 				{
 					"id": 11,
@@ -216,7 +231,14 @@
 						"url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/Mixed/MixedWeirdLaugh.mp3",
 						"volume": 10,
 						"delay": 0
-					}]
+					},
+					{
+				        "id": 1,
+				        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/InAirLegFlail.flac",
+				        "volume": 10,
+				        "delay": 0
+				    }
+					]
 				},
 				{
 					"id": 14,
@@ -224,8 +246,14 @@
 						"id": 0,
 						"url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/Mixed/MixedRockFall.flac",
 						"volume": 10,
-						"delay": 5
-					}]
+						"delay": 0
+					},
+					{
+				        "id": 1,
+				        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/JumpLand.m4a",
+				        "volume": 10,
+				        "delay": 0
+			      	}]
 				},
 				{
 					"id": 15,
@@ -234,7 +262,13 @@
 						"url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/SlippingSound.wav",
 						"volume": 10,
 						"delay": 5
-					}]
+					},
+					{
+				        "id": 0,
+				        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/SingleClap.wav",
+				        "volume": 15,
+				        "delay": 1000
+			      	}]
 				},
 				{
 					"id": 16,
@@ -247,11 +281,21 @@
 				},
 				{
 					"id": 17,
-					"soundEffects": []
+					"soundEffects": [{
+				        "id": 0,
+				        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/FemaleByeBye.mp3",
+				        "volume": 15,
+				        "delay": 0
+			      	}]
 				},
 				{
 					"id": 18,
-					"soundEffects": []
+					"soundEffects": [{
+				        "id": 0,
+				        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/WowMeme.mp3",
+				        "volume": 10,
+				        "delay": 3000
+			      	}]
 				},
 				{
 					"id": 19,
@@ -278,7 +322,13 @@
 						"url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/Mixed/MixedWindBlow-20.wav",
 						"volume": 10,
 						"delay": 5
-					}]
+					},
+					{
+				        "id": 1,
+				        "url": "https://raw.githubusercontent.com/expensivecow/ImageAndSoundRepo/master/SoundEffects/Crickets.mp3",
+				        "volume": 15,
+				        "delay": 0
+			      	}]
 				},
 				{
 					"id": 22,
