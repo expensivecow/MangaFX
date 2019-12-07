@@ -149,7 +149,7 @@
 					"soundEffects": [{
 						"id": 0,
 						"url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/Mixed/MixedScrapeCardboard.mp3",
-						"volume": 10,
+						"volume": 15,
 						"delay": 0
 					}]
 				},
@@ -193,7 +193,7 @@
 					"soundEffects": [{
 				        "id": 0,
 				        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/WobblyLegs.wav",
-				        "volume": 10,
+				        "volume": 15,
 				        "delay": 0
 			      	}]
 				},
@@ -226,14 +226,9 @@
 				},
 				{
 					"id": 13,
-					"soundEffects": [{
-						"id": 0,
-						"url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/Mixed/MixedWeirdLaugh.mp3",
-						"volume": 10,
-						"delay": 0
-					},
+					"soundEffects": [
 					{
-				        "id": 1,
+				        "id": 0,
 				        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/InAirLegFlail.flac",
 				        "volume": 10,
 				        "delay": 0
@@ -267,6 +262,18 @@
 				        "id": 0,
 				        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/SingleClap.wav",
 				        "volume": 15,
+				        "delay": 500
+			      	},
+					{
+				        "id": 1,
+				        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/SingleClap.wav",
+				        "volume": 20,
+				        "delay": 750
+			      	},
+					{
+				        "id": 2,
+				        "url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/SingleClap.wav",
+				        "volume": 25,
 				        "delay": 1000
 			      	}]
 				},
@@ -364,7 +371,12 @@
 				},
 				{
 					"id": 25,
-					"soundEffects": []
+					"soundEffects": [{
+						"id": 0,
+						"url": "https://github.com/expensivecow/ImageAndSoundRepo/raw/master/SoundEffects/Mixed/MixedRooster-1.wav",
+						"volume": 10,
+						"delay": 0
+					}]
 				},
 				{
 					"id": 26,
